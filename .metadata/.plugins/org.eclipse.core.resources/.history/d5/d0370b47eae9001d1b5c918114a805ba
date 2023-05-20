@@ -1,0 +1,26 @@
+package jdbc;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.Statement;
+
+public class _4DMLoperation {
+
+	public static void main(String[] args) throws Exception {
+		Class.forName("org.sqlite.JDBC");//to use the driver
+		Connection con=DriverManager.getConnection("jdbc:sqlite:C:\\sqlite\\univ.db");
+		
+		Statement stm =con.createStatement();
+		
+		stm.executeUpdate("insert into dept values(?,'Bio')");
+//		stm.executeUpdate("delete from dept where deptno>=60");
+//		stm.executeUpdate("update dept set dname='Chem' where deptno=50");
+		stm.executeUpdate("delete from dept where deptno>=60");
+//		insert into student values(6,'anita','kolkata',30);
+		
+		stm.close();
+		con.close();
+		
+	}
+
+}

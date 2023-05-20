@@ -1,0 +1,21 @@
+ctrl + shift x , y ==> for making upper and lower case
+alt + up arrow ==> to move line up and down
+alt+shift+z To surroe=und code with variooous stuff
+rightclick >source > getter and setter we can import 
+same way we can create constructer
+//ctrlA > ctrl+shift+F  To format indentation
+ctrl+shift+O to import class etc and it remove also when not used 
+
+select word > alt+shift+R it changes all at once
+ctrl + L to go to perticular line
+ctrl  + O TO view all the outline of the code so that to reach at any method
+Alt+shift+M if we want code to include in  new method
+ctrl +D to delete the line
+ctrl +alt+H view call hirerchy
+seletc word > F4  To view class hirerchy
+ctrl+shift+P To go to other end in curly braces
+ctrl +,- to change font size
+select then F3 or ctrl + click To find where it is declared
+ctrl+shift+R to search for a resources mean similar to ctrl +O
+ctrl pgUP and pgDown to navigate to the open tab 
+ctrl +F11 to run the prog

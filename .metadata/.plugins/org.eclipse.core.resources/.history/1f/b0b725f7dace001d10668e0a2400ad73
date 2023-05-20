@@ -1,0 +1,15 @@
+package myfirst;
+
+import javax.security.auth.x500.X500Principal;
+
+public class MyFirst {
+
+	public static void main() {
+		
+	} {
+		// TODO Auto-generated method stub
+		System.out.println("Hello World ! ");
+		
+	}
+
+}
